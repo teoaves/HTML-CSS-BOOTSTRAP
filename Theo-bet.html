@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Theo-bet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="titlos">
+                <p>THEO-BET</p>
+                
+            </div>
+            <div class="navbar">
+                <ul class="nav">
+                    <li class="dropdown"><a href="javascript:void(0)">Αναλύσεις &#9662</a>
+                     <ul class="dropdown-content">
+                    <li><a href=""> Εκπαίδευση</a></li>
+                    <li><a href=""> Έρευνα</a></li>
+                    <li><a href=""> Υπηρεσίες</a></li>
+                    <li><a href=""> Διασύνδεση</a></li>
+                </ul>
+                    </li>
+                    <li class="dropdown"><a href="javascript:void(0)">Προγνωστικά &#9662</a>
+                        <ul class="dropdown-content">
+                       <li><a href=""> Σχολές και τμήματα</a></li>
+                       <li><a href=""> Προπτυχιακές σπουδές</a></li>
+                       <li><a href=""> Μεταπτυχιακές σπουδές</a></li>
+                       <li><a href=""> Πρακτική Άσκηση</a></li>
+                   </ul>
+                       </li>
+                       <li class="dropdown"><a href="javascript:void(0)">Κουπόνι &#9662</a>
+                        <ul class="dropdown-content">
+                       <li><a href=""> Θέματα Στρατηγικής και Καινοτομίας</a></li>
+                       <li><a href=""> Ψηφιακή Καινοτομία </a></li>
+                       <li><a href="">Μονάδα Καινοτομίας </a></li>
+                       <li><a href="">Διοίκηση Καινοτομίας </a></li>
+                   </ul>
+                       </li>
+                       <li class="dropdown"><a href="javascript:void(0)">Προσφορές &#9662</a>
+                        <ul class="dropdown-content">
+                       <li><a href=""> Το Πανεπιστήμιο </a></li>
+                       <li><a href=""> Διοίκηση</a></li>
+                       <li><a href=""> Συνεργασίες</a></li>
+                       <li><a href=""> Πληροφορίες</a></li>
+                   </ul>
+                       </li>
+                </ul>
+            </div>
+            <div class="nav-toggle">
+
+                <button type="button">&#8801;</button>
+        
+             </div>
+        </div>
+
+        <div class="home-img gap-bottom">
+            <div class="home-title">
+                <div class="Sports">
+                    <ul> <a href="#">
+                        <li> <i class="fa-solid fa-futbol"></i> Ποδόσφαιρο</li> <br>
+                        <li><i class="fa-solid fa-basketball"></i> Μπάσκετ</li> <br>
+                        <li><i class="fa-solid fa-volleyball"></i>Βόλεϊ </li> <br>
+                        <li><i class="fa-solid fa-person-snowboarding"></i> Υπόλοιπα Αθλήματα</li>  </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="forma">
+            <form> <h>Κάνε εγγραφή για να μαθαίνεις πρώτος τα νέα:</h> <br> <br>
+                <label for="rdname" >Name:<abbr title="Required field">*</abbr></label>
+                <input class="onoma" type="text" id="rdname" name="firstname" minleght="3" maxlenght="30" required> <br> <br>
+        
+                <label for="rdemail" >E-mail:<abbr title="Required field">*</abbr></label>
+                <input class = "taxid" type="email" id="rdemail" name="email" required>
+                
+            </form>
+        </div>
+        <div class="footer">
+            <ul class="oroi">
+                <li><a href="#">Όροι χρήστης</li>
+                <li>Πολιτική Cookies</a></li> 
+            </ul>
+            <img class="novi" src="../chapter01/img/novibet_1200x532.png"΄ alt="novibet"> 
+            <img class="ket" src="../chapter01/img/KETHEA.jpg" alt="kethea"> <p class="ethismos">21+ | ΚΙΝΔΥΝΟΣ ΕΘΙΣΜΟΥ & ΑΠΩΛΕΙΑΣ ΠΕΡΙΟΥΣΙΑΣ | ΠΑΙΞΕ ΥΠΕΥΘΥΝΑ & ΜΕ ΑΣΦΑΛΕΙΑ |</p>
+        </div>
+    </div>
+
+    <script>
+
+        const toggleBtn = document.querySelector('.nav-toggle');
+
+        const navBarToggle = document.querySelector('.navbar-toggle');
+
+ 
+
+        toggleBtn.addEventListener('click', function(){
+
+            console.log("hello");
+
+            navBarToggle.classList.toggle('show');
+
+ 
+
+        })
+
+ 
+
+    </script>
+    
+    
+</body>
+</html>  
