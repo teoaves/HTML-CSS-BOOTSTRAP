@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./askisi02.css">
+        
+            
+
+</head>
+<body> <div> 
+    <h1>Φόρμα Πληρωμής</h1>
+    </div> 
+    <div>
+    <p class="prosopika"> Τα υποχρεωτικά πεδία ακολοθούνται από <abbr title="Required field">*</abbr></p>
+    </div> 
+    <div>
+    <h1 >Προσωπικά στοιχεία</h1>
+    </div>
+
+    
+    <form action="/sendData" method="PUT" >
+        
+                <fieldset>
+                <legend>
+                    Title:
+                </legend> 
+                <div> 
+                    <input type="radio" id="rdmr" name="idiothta" value="kyrios." checked>
+                    <label for="rdmr">Mr.</label>
+                    
+                </div>
+                <div>
+                    <input type="radio" id="rdms" name="idiothta" value="kyria">
+                    <label for="rdms">Mrs.</label>
+                    
+                </div>
+                <div>
+                    <input type="radio" id="rdr" name="idiothta" value="dor">
+                    <label for="rdr">Dr.</label>
+                    
+                </div> 
+            
+                
+                </fieldset> <br>
+                <div class="onoma1">
+                
+                <label for="rdname" >Name:<abbr title="Required field">*</abbr></label>
+                <input class="onoma" type="text" id="rdname" name="firstname" minleght="3" maxlenght="30" required>
+             </div>  <br>
+
+             <div class="taxid1">
+             
+            <label for="rdemail" >E-mail:<abbr title="Required field">*</abbr></label>
+            <input class = "taxid" type="email" id="rdemail" name="email" required>
+             </div>  <br>
+
+             <div class="pass1">
+        
+        <label for="rdpass" >Password:<abbr title="Required field">*</abbr></label>
+        <input class="pass" type="password" id="rdpass" name="password" required>
+    </div> 
+    <div>
+    <h2>Πληροφορίες Πληρωμής </h2>
+    </div>
+    <div class="typos">
+    <label for="card">Card type:</label>
+    <select class= "karta" id="card" name="cardd">
+        <option value="Visa" selected>Visa</option>
+        <option value="Mastercard">Mastercard</option>
+        <option value="Paypall">Paypall</option>
+        </select> </div> <br>
+
+    
+        
+        <div class="noumero">
+        
+            <label for="rdnumber">Card number<abbr title="Required field">*</abbr></label>
+            <input type="number" class= "num" id="rdnumber" name="numberr" required> </div>
+        <br> 
+
+        <div class="hmer">
+            <label for="ndate">Expiration date<abbr title="Required field">*</abbr></label> 
+
+        <input type="text" class= "expi" id="ndate" name="rdate" required placeholder="ΜΜ/ΥΥ" pattern="^(0[1-9]|1[0-2])\/([0-9]{2})$"> </div> <br>
+            <div> <br> 
+        
+        
+            <input type="submit" class= "eisodos" value="Προχωρήστε στην πληρωμή" class="telos">
+        </div>
+                
+                    
+                
+            
+
+        
+
+            </form>
+    
+</body>
+</html>

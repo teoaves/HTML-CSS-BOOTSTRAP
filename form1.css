@@ -1,0 +1,47 @@
+.onoma1, .taxid1, .pass1 {
+    text-align: right;
+    
+    
+}
+
+fieldset {
+    margin-left: 200px;
+    width: 300px;
+    height: 100px;
+}
+
+body{
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+abbr {
+    color: red;
+}
+ 
+.typos, .noumero, .hmer {
+    text-align: center;
+    
+}
+
+.eisodos {
+    margin-left: 130px;
+}
+
+.onoma, .taxid, .pass{
+    width: 300px;
+    padding: 2px;
+}
+
+.expi, .num {
+    width: 300px;
+    padding: 2px;
+}
+
+.karta {
+    width: 200px;
+    padding: 2px;
+    
+}

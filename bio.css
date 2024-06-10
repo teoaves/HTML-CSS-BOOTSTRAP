@@ -1,0 +1,29 @@
+.teo {
+    text-align: center;
+    color: blue;
+
+}
+
+.politic {
+    text-align: center;
+    
+}
+ 
+.info {
+    color: red;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.fa-facebook, .fa-linkedin {
+    font-size: x-large;
+
+
+} 
+
+.fa-facebook {
+    margin-left: 10px;
+}
+    
